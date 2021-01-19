@@ -1,0 +1,263 @@
+
+body{
+  font-family: "Montserrat",sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold',sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+/************************* Headings/Common classes ***************************/
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.section-heading{
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-heading{
+  font-weight: 800;
+  font-size: 1.41rem;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+
+/************************** Navigation Bar **************************/
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+#brand-first-letter{
+  font-size: 3.8rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu",sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 100;
+}
+
+
+/************************** Download Button *******************************/
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/*************************** Title Section **********************************/
+
+#title{
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/******************************** Features Section ***************************/
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-weight: 800;
+  font-size: 1.41rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/************************* Testimonials Section *******************************/
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo{
+  width: 12%;
+  margin: 10px 20px 50px;
+}
+
+
+/**************************** Pricing Section *******************************/
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price-text{
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 5%;
+}
+
+
+/************************* Call to Action Section ***************************/
+
+.cta-title{
+  font-family: "Montserrat-Black",sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+
+
+/******************************* Footer Section ****************************/
+
+.social-icon{
+  color: black;
+  margin: 20px 15px;
+}
+
+.social-icon:hover{
+  color: gray;
+}
+
+/**********************Extra Styles for smaller screen***********************/
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform:rotate(0);
+    width: 50%;
+  }
+}
+  @media (max-width:990px){
+    .big-heading{
+      font-size: 5rem;
+    }
+    .navbar-brand{
+      font-size: 3.5rem;
+    }
+    .navbar-toggler {
+      font-size: 3rem;
+    }
+    .nav-link{
+      font-size: 2.5rem;
+      text-align: left;
+      margin-top: 2%;
+    }
+    .download-button{
+      font-size: 2.5rem;
+      margin: 8% 4%;
+    }
+    .feature-box {
+      font-size: 2rem;
+    }
+    .feature-box h3{
+      font-size: 2.4rem;
+    }
+    .feature-box p{
+      font-size: 1.8rem;
+    }
+    .testimonial-text{
+      font-size: 4.2rem;
+      padding: 3% 10%;
+    }
+    .testimonial-name{
+      font-size: 1.5rem;
+    }
+    .testimonial-image{
+      width: 20%;
+    }
+    .press-logo{
+      width: 25%;
+      padding: 2%;
+    }
+    #pricing h2{
+      font-size: 4rem;
+    }
+    #pricing h3{
+      font-size: 3rem;
+    }
+    #pricing .btn{
+      font-size: 2rem;
+    }
+    #pricing {
+      font-size: 1.8rem;
+    }
+    #footer{
+      font-size: 1.7rem;
+      padding-bottom: 5%
+    }
+  }
